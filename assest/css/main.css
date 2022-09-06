@@ -1,0 +1,186 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+body
+{
+    display: block;
+}
+.kname
+{
+    color: white;
+    text-align: center;
+    position: relative;
+    height: 100vh;
+    min-height: 600px;
+    background-image: url(../imgs/header.jpg);
+    background-size: cover;
+    background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+               flex-direction: column;
+}
+.kname h1
+{
+    margin-bottom: 160px;
+    margin-top: 70px;
+
+}
+.about
+{
+    display: flexbox;
+    font-family: 'Times New Roman';
+}
+.about p
+{
+    font-size: 20px;
+}
+.menubar
+{
+    background-color: rgb(134, 9, 98); /* #333 */
+    opacity: 90%;
+    overflow: hidden;
+}
+.menubar a 
+{
+    float: left;  /*home to contaction order */  
+    color: #f2f2f2; /*font color change */
+    text-align: center;
+    padding: 15px 25px; /* 15px -> is up down 25-> left right */
+    text-decoration: none; /* normal text is underline using this format remove underline */
+    font-size: 20px;
+    margin: 10px;
+}
+.menubar a:hover /* hover is mouse move on place change effect */
+{
+    background-color: #ddd; /* cursor move on menu word change this color */
+    color: black; /* #ddd white backgroun color text is black color */
+}
+.menubar-right
+{
+    float: right; /*menu bar going to right side*/
+}
+
+/* Education css paging */
+ #edu
+ {
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  background-color:rgb(248, 217, 246)
+ }
+
+ #edu > div
+ {
+  background-color: #86b7fe;
+  width: 540px;
+  margin: 30px;
+  padding: 20px;
+  height: 260px;
+ }
+ #edu h4
+ {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration-line: underline;
+ }
+ #edu p
+ {
+    line-height: 40px; /* 2(up and down) line line space */
+    padding-left: 26px;
+    padding-right: 20px;
+ }
+ #edu li
+ {
+    line-height: 15px; /* 2(up and down) line line space */
+    margin: 20px;   
+ }
+ #education h1
+ {
+    font-weight: bold;
+    font-size: 35px;
+ }
+
+                 /* Technicals  Skills*/
+
+ #technicals h1
+ {
+    font-weight: bold;
+    font-size: 35px;
+ }
+#technicals
+{
+    display: block;
+}
+.accordion-body
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+      
+}
+.card
+{
+    margin: 10px;
+}
+.list-group
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 30px;   
+}
+                   /*  Certificate */
+.ce-main-box
+{
+    display: contents;
+}
+.ce-ec-box h3, .ce-py-box h3, .ce-ctf-box h3
+{
+    text-align: center;
+    margin-bottom: 25px;
+    text-decoration: underline;
+    text-decoration-color: chocolate;
+    background-color: #86b7fe;
+}
+.ce-ec-box img, .ce-py-box img, .ce-ctf-box img
+{
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+   width: 50%;    
+   margin-bottom: 10px;       
+}
+
+  /* contact */
+.modulation
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #86b7fe;
+}
+
+.modulation > div
+{
+    margin: 30px;
+    margin-bottom: 50px;
+}
+.modulation h2
+{
+    text-decoration: underline;
+}
+.linkedin a 
+{
+    text-decoration: none;
+    color: rgb(46, 45, 45);
+}
+
